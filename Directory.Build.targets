@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup Condition="'$(SourceRevisionId)' == ''">
+    <SourceRevisionId>$(GITHUB_SHA)</SourceRevisionId>
+  </PropertyGroup>
+</Project>
